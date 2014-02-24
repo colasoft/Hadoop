@@ -1,5 +1,5 @@
 package Hadoop.hbase;
-
+//test
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
@@ -606,7 +606,7 @@ public class App
             System. out.print("MYSQL ERROR:" + e.getMessage() + "\n");
         }
         con_MySQL.close();
-      /*
+      
         Hdfstosql("/Logstash/Agent_Count_File/part-r-00000",(str_table_name+ "_Agent"),"Agent" );
         Hdfstosql("/Logstash/Agent_Count_File/part-r-00001",(str_table_name+ "_Agent"),"Agent" );
         Hdfstosql("/Logstash/Agent_Count_File/part-r-00002",(str_table_name+ "_Agent"),"Agent" );
@@ -630,7 +630,7 @@ public class App
         Hdfstosql("/Logstash/ReferrerHost_Count_File/part-r-00002",(str_table_name+ "_ReferrerHost"),"ReferrerHost" );
         Hdfstosql("/Logstash/ReferrerHost_Count_File/part-r-00003",(str_table_name+ "_ReferrerHost"),"ReferrerHost" );
         Hdfstosql("/Logstash/ReferrerHost_Count_File/part-r-00004",(str_table_name+ "_ReferrerHost"),"ReferrerHost" );
-        Hdfstosql("/Logstash/ReferrerHost_Count_File/part-r-00005",(str_table_name+ "_ReferrerHost"),"ReferrerHost" ); */
+        Hdfstosql("/Logstash/ReferrerHost_Count_File/part-r-00005",(str_table_name+ "_ReferrerHost"),"ReferrerHost" );
         Hdfstosql("/Logstash/KeyWords_Count_File/part-r-00000",(str_table_name+ "_SearchKeyWords"),"SearchKeyWords" );
         Hdfstosql("/Logstash/KeyWords_Count_File/part-r-00001",(str_table_name+ "_SearchKeyWords"),"SearchKeyWords" );
         Hdfstosql("/Logstash/KeyWords_Count_File/part-r-00002",(str_table_name+ "_SearchKeyWords"),"SearchKeyWords" );

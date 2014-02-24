@@ -423,7 +423,7 @@ public class App
       }
     
      public static void main(String[] args) throws Exception {
-         
+    	  System. out.println ("hello world" );
           if(args.length != 2){
                System. out.println("参数错误" );
                System. out.println("起始日期   截至日期   格式：2013年01月01日00:00:00" );
